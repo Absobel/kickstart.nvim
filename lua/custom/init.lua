@@ -1,3 +1,6 @@
+-----------------
+--- KEYBINDS
+
 vim.keymap.set('n', '<A-Up>', ':m .-2<CR>==')
 vim.keymap.set('n', '<A-Down>', ':m .+1<CR>==')
 vim.keymap.set('v', '<A-Up>', ":m '<-2<CR>gv=gv")
@@ -19,3 +22,4 @@ end, { noremap = true })
 vim.keymap.set('n', 'DD', function()
   vim.cmd 'normal! dd'
 end, { noremap = true })
+
